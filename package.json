@@ -1,0 +1,16 @@
+{
+  "name": "recipe-page-main",
+  "version": "1.0.0",
+  "description": "Challenge to make recipe page to match the design as close as possible",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=8080 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "recipe",
+    "page"
+  ],
+  "author": "Srijan Manandhar",
+  "license": "MIT"
+}
