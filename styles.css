@@ -80,6 +80,7 @@ hr {
 .recipe {
   width: 100%;
   background-color: var(--white);
+  padding-bottom: 2.5rem;
 }
 .recipe__pic {
   width: 100%;
@@ -88,12 +89,13 @@ hr {
   padding: 0 2rem;
   padding-top: 2.5rem;
   font-family: var(--secondary-font);
+  font-weight: var(--font-weight-regular);
   font-size: 36px;
   line-height: 2.5rem;
 }
 .recipe__content {
-  padding: 2rem;
-  padding-bottom: 2.5rem;
+  padding: 1.5rem 2rem;
+  padding-bottom: 0;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -133,6 +135,7 @@ hr {
 .recipe__instructions h2,
 .recipe__nutrition h2 {
   font-family: var(--secondary-font);
+  font-weight: var(--font-weight-regular);
   font-size: 1.75rem;
   color: var(--nutmeg);
 }
@@ -184,4 +187,26 @@ hr {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 376px) {
+  body {
+    padding-top: 123px;
+  }
+
+  .recipe {
+    width: 736px;
+    margin: 0 auto;
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+  }
+
+  .recipe__pic {
+    border-radius: 0.75rem;
+  }
+  .recipe__title,
+  .recipe__content {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
